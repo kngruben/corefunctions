@@ -1,0 +1,13 @@
+name: CoreFunctions
+version: '${project.version}'
+main: kng.ruben.corefunctions.CoreFunctions
+api-version: '1.20'
+author: ruben.kng
+commands:
+  clearchat:
+    aliases: [chatclear, cc]
+    permission: corefunctions.command.clearchat
+  invsee:
+    permission: corefunctions.command.invsee
+  heal:
+    permission: corefunctions.command.heal

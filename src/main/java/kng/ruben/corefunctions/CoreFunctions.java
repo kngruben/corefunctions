@@ -1,6 +1,7 @@
 package kng.ruben.corefunctions;
 
 import kng.ruben.corefunctions.commands.ClearChatCommand;
+import kng.ruben.corefunctions.commands.FeedCommand;
 import kng.ruben.corefunctions.commands.HealCommand;
 import kng.ruben.corefunctions.commands.InvseeCommand;
 import kng.ruben.corefunctions.listener.AsyncPlayerChatListener;
@@ -13,6 +14,7 @@ public final class CoreFunctions extends JavaPlugin {
         getCommand("clearchat").setExecutor(new ClearChatCommand());
         getCommand("invsee").setExecutor(new InvseeCommand());
         getCommand("heal").setExecutor(new HealCommand());
+        getCommand("feed").setExecutor(new FeedCommand());
 
         var pluginManager = Bukkit.getPluginManager();
 

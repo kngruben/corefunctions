@@ -11,3 +11,5 @@ commands:
     permission: corefunctions.command.invsee
   heal:
     permission: corefunctions.command.heal
+  feed:
+    permission: corefunctions.command.feed
